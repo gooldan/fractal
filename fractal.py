@@ -8,6 +8,8 @@ Julia and Mandelbrot fractals image creation
 """
 
 from __future__ import division, print_function
+import matplotlib
+matplotlib.use('Qt5Agg')
 import pylab, argparse, collections, inspect, functools
 from itertools import takewhile
 import time
